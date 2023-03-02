@@ -1,0 +1,114 @@
+/* Estilos para el body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Estilos para el encabezado h1 */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0 10px 0;
+  }
+  
+  /* Estilos para el encabezado h2 */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para el encabezado h3 */
+  h3 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para el enlace en el índice */
+  #indc a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  table th {
+    background-color: #ddd;
+  }
+  
+  table td {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #666;
+  }
+  .btn {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
